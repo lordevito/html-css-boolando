@@ -39,29 +39,33 @@ MAIN
 .item{
     position: relative;
     width: calc(100% / 3 - 40px);
-    margin-top: 50px;
+    height: 400px;
+    margin-bottom: 80px;
 }
-
+/*.item:hover{
+    background-image: url(/img/1b.webp);
+    z-index: ;
+}*/
 .margin-mid{
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 img{
     display: block;
-    height: 500px;
-    
+    height: 100%;
+    width: 100%;
 }
 .heart{
     background-color: white;
     padding: 7px;
     position: absolute;
-    right: 0;
+    right: 0px;
     top: 5px;
 }
 .info{
     position: absolute;
-    left: 0;
-    bottom: 150px;
+    left: 0px;
+    bottom: 70px;
 }
 .price-tag{
     color: white;
@@ -75,4 +79,16 @@ img{
     background-color: green;
     padding: 7px;
     font-weight: bolder;
+}
+.grey{
+    color: grey;
+}
+.h3{
+    font-weight: bolder;
+}
+.sbarra{
+    text-decoration: line-through;
+}
+.red{
+    color: red;
 }
