@@ -25,15 +25,16 @@ HEADER
 */
 
 header{
-    background-color: orangered;
-    padding: 10px;
     color: white;
     box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2); ;
 }
+
 .head{
+    background-color: orangered;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
-    width: 1000px;
+    width: 100%;
     margin: 0 auto;
 }
 .logo{
