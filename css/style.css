@@ -20,6 +20,35 @@ body{
 
 /*
 *********
+HEADER
+*********
+*/
+
+header{
+    background-color: orangered;
+    padding: 10px;
+    color: white;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin: 0 auto;
+}
+.logo{
+    width: 100px; 
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.link a{
+    text-decoration: none;
+    color: white;
+}
+
+/*
+*********
 MAIN
 *********
 */
@@ -42,10 +71,15 @@ MAIN
     height: 400px;
     margin-bottom: 80px;
 }
-/*.item:hover{
-    background-image: url(/img/1b.webp);
-    z-index: ;
-}*/
+.item:hover .main{
+    display: none;
+}
+.item:hover .alt{
+    display: block;
+}
+.alt{
+    display: none;
+}
 .margin-mid{
     margin-left: 10px;
     margin-right: 10px;
